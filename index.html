@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhruma Jani</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body itemscope itemtype="https://schema.org/Person">
+    <header class="position-fixed z-3 top-0 w-100">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid justify-content-between">
+          <h1>
+            <a class="navbar-brand fst-italic text-white" href="index.html"
+              >DeeWrites</a
+            >
+          </h1>
+          <!-- navbar button -->
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="text-white navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-lg-center" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-label="go to home page"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  aria-label="go to about page"
+                  href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  aria-label="go to contact page"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="to-top">
+      <!-- hero image -->
+      <section class="hero-content mx-auto">
+        <picture>
+          <source
+            srcset="images/hero-image-768_x_330.png"
+            media="(max-width: 768px)"
+          />
+          <source
+            srcset="images/hero-image-1920_x_825.png"
+            media="(min-width: 769px)"
+          />
+          <img
+            src="images/hero-image-768_x_330.png"
+            alt="deewrites hero image"
+          />
+        </picture>
+      </section>
+      <!-- intro -->
+      <section class="welcome container-md mb-5 mx-auto">
+        <h2
+          class="fw-bold p-5 display-3 text-center animate__animated animate__backInRight"
+        >
+          Welcome to <span class="fst-italic fw-normal">DeeWrites</span>.
+        </h2>
+        <!-- image gallery -->
+        <div class="row" data-aos="fade-in">
+          <picture class="col-4 animate__animated animate__fadeIn">
+            <source
+              srcset="images/welcome-1-768_x_768.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="images/welcome-1-1920_x_1920.png"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="images/welcome-1-768_x_768.png"
+              alt="deewrites hero image"
+            />
+          </picture>
+
+          <picture class="col-4 animate__animated animate__fadeIn">
+            <source
+              srcset="images/welcome-2-768_x_768.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="images/welcome-2-1920_x_1920.png"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="images/welcome-2-768_x_768.png"
+              alt="deewrites hero image"
+            />
+          </picture>
+
+          <picture class="col-4 animate__animated animate__fadeIn">
+            <source
+              srcset="images/welcome-3-768_x_768.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="images/welcome-3-1920_x_1920.png"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="images/welcome-3-768_x_768.png"
+              alt="deewrites hero image"
+            />
+          </picture>
+        </div>
+      </section>
+      <!-- welcome message -->
+      <section
+        class="text-content container-sm my-large mx-auto"
+        data-aos="fade-in"
+      >
+        <div class="row">
+          <picture class="col-12 col-md-3 offset-md-2 mb-2">
+            <source
+              srcset="images/me-768_x_574.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="images/me-1920_x_1435.png"
+              media="(min-width: 769px)"
+            />
+            <img src="images/me-768_x_574.png" alt="dhruma jani" />
+          </picture>
+          <div class="col-12 col-md-6">
+            <p class="fs-4">
+              Hello and welcome to <span class="fst-italic">DeeWrites</span>. I
+              am <span itemprop="givenName">Dhruma Jani</span>, the person you
+              came looking for. I am just a girl who understands what youth
+              these days needs. I can serve you by managing your social media
+              and increase you insights.
+            </p>
+            <a
+              href="about.html"
+              aria-label="go to about page"
+              class="text-decoration-none btn bg-body-secondary text-white"
+            >
+              <span class="fst-italic">LEARN MORE</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- why pick us -->
+      <section class="why-us bg-body-tertiary p-5" data-aos="fade-in">
+        <div class="row">
+          <div class="container-sm col-12 col-md-10 col-lg-8">
+            <div class="row">
+              <h3
+                class="fw-semibold col-12 col-md-4 text-center text-md-start mb-3"
+              >
+                WHY US?
+              </h3>
+              <p class="col-12 col-md-8 text-center text-md-start fs-4">
+                Our Passion, dedication and Skills are some of the reasons why
+                you should choose us . We take client satisfaction pretty
+                seriously and it is our aim to provide anyone who joins us with
+                nothing but the best.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- customer reviews -->
+      <section class="bg-body-secondary pt-medium" data-aos="fade-in">
+        <h3 class="text-center mb-medium">SOME CUSTOMER REVIEWS</h3>
+        <div class="row align-items-md-center mx-0">
+          <picture class="col-8 offset-2 offset-md-1 col-md-4 mb-md-4">
+            <source
+              srcset="images/customer-1-768_x_768.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="images/customer-1-1920_x_1920.png"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="images/customer-1-768_x_768.png"
+              alt="deewrites hero image"
+            />
+          </picture>
+
+          <p class="fw-bold fs-4 text-center col-8 offset-2 col-md-4 mb-md-4">
+            “Great team to work with.”
+          </p>
+
+          <picture class="col-8 offset-2 col-md-4 order-md-2">
+            <source
+              srcset="images/customer-2-768_x_768.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="images/customer-2-1920_x_1920.png"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="images/customer-2-768_x_768.png"
+              alt="deewrites hero image"
+            />
+          </picture>
+
+          <p
+            class="fw-bold fs-4 text-center col-8 offset-2 offset-md-1 col-md-4"
+          >
+            “Very professional and creative .”
+          </p>
+        </div>
+      </section>
+      <!-- call to action -->
+      <section
+        class="call-to-action bg-body-secondary py-large d-flex justify-content-center"
+      >
+        <a
+          href="contact.html"
+          aria-label="go to contact page"
+          class="text-decoration-none bg-black rounded-5 p-3 border-0"
+        >
+          <span class="fst-italic fs-3 text-white">REACH OUT</span>
+        </a>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-secondary text-center py-small">
+      <small class="text-white">&copy; Dhruma Jani 2023</small>
+      <br />
+      <a class="text-white" href="#to-top">Back to top</a>
+    </footer>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

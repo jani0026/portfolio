@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* css custom properties */
+:root {
+  --bs-primary: #f5f5f5;
+  --bs-tertiary-bg-rgb: 223, 171, 171;
+  --bs-secondary-bg-rgb: 121, 115, 193;
+  --bs-secondary: #7973c1;
+}
+
+img,
+video {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.hero-content img {
+  filter: blur(1px);
+}
+/* custom margins and padding */
+.mt-large {
+  margin-top: 10rem;
+}
+
+.pt-large {
+  padding-top: 10rem;
+}
+
+.py-large {
+  padding: 10rem 0;
+}
+
+.py-medium {
+  padding: 6rem 0;
+}
+
+.py-small {
+  padding: 3rem 0;
+}
+
+.pt-medium {
+  padding-top: 6rem;
+}
+
+.mb-large {
+  margin-bottom: 10rem;
+}
+
+.mb-medium {
+  margin-bottom: 6rem;
+}
+
+.mb-small {
+  margin-bottom: 4rem;
+}
+
+.my-large {
+  margin: 10rem 0;
+}
+
+/* setting min height of text area */
+textarea {
+  min-height: 200px;
+  resize: none;
+}
